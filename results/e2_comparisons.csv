@@ -1,0 +1,16 @@
+fault,comparison,n_pairs,mean_recall_gain,ci_low,ci_high,wilcoxon_p,cliffs_delta,all_differences_zero,holm_adjusted_p
+unit,schema vs none,20,0.0,0.0,0.0,,0.0,True,1.0
+unit,schema+range vs schema,20,0.7371329211746522,0.7324188562596599,0.7417716383307573,8.782404130245517e-05,1.0,False,0.001053888495629462
+unit,schema+range+statistical vs schema+range,20,0.11151468315301391,0.10830757341576507,0.11479907264296751,8.794879347050151e-05,1.0,False,0.001053888495629462
+range,schema vs none,20,0.0,0.0,0.0,,0.0,True,1.0
+range,schema+range vs schema,20,1.0,1.0,1.0,7.74421643104407e-06,1.0,False,0.00011616324646566106
+range,schema+range+statistical vs schema+range,20,0.0,0.0,0.0,,0.0,True,1.0
+gap,schema vs none,20,0.0,0.0,0.0,,0.0,True,1.0
+gap,schema+range vs schema,20,1.0,1.0,1.0,7.74421643104407e-06,1.0,False,0.00011616324646566106
+gap,schema+range+statistical vs schema+range,20,0.0,0.0,0.0,,0.0,True,1.0
+drift,schema vs none,20,0.0,0.0,0.0,,0.0,True,1.0
+drift,schema+range vs schema,20,0.09344696969696968,0.0818939393939394,0.10553125,8.819870204194453e-05,1.0,False,0.001053888495629462
+drift,schema+range+statistical vs schema+range,20,0.04428030303030303,0.03787878787878789,0.05098484848484849,8.844915021211901e-05,0.7125,False,0.001053888495629462
+duplicate,schema vs none,20,1.0,1.0,1.0,7.74421643104407e-06,1.0,False,0.00011616324646566106
+duplicate,schema+range vs schema,20,0.0,0.0,0.0,,0.0,True,1.0
+duplicate,schema+range+statistical vs schema+range,20,0.0,0.0,0.0,,0.0,True,1.0

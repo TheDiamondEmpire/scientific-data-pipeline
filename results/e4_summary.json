@@ -1,0 +1,103 @@
+{
+  "cells": [
+    {
+      "diff_ci_high_s": 2.9542082000002665,
+      "diff_ci_low_s": 0.8910433999994893,
+      "diff_median_s": 1.7376784499997484,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "wall_s",
+      "n_pairs": 12,
+      "off_median_s": 5.29142524999952,
+      "on_median_s": 7.379068800000368,
+      "overhead_pct_ci_high": 55.553097535153356,
+      "overhead_pct_ci_low": 19.213326683732245,
+      "overhead_pct_median": 30.6641938836422,
+      "stations": 2,
+      "wilcoxon_p": 0.00048828125
+    },
+    {
+      "diff_ci_high_s": 0.84375,
+      "diff_ci_low_s": 0.671875,
+      "diff_median_s": 0.7890625,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "cpu_s",
+      "n_pairs": 12,
+      "off_median_s": 1.859375,
+      "on_median_s": 2.5703125,
+      "overhead_pct_ci_high": 45.92175066312997,
+      "overhead_pct_ci_low": 36.00806176128988,
+      "overhead_pct_median": 42.90228488089451,
+      "stations": 2,
+      "wilcoxon_p": 0.00048828125
+    },
+    {
+      "diff_ci_high_s": 1.9462349999998878,
+      "diff_ci_low_s": 0.7744700499997634,
+      "diff_median_s": 1.5936068999999407,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "wall_s",
+      "n_pairs": 12,
+      "off_median_s": 3.3581684999999197,
+      "on_median_s": 5.045270099999925,
+      "overhead_pct_ci_high": 61.60208527119492,
+      "overhead_pct_ci_low": 18.840708187676213,
+      "overhead_pct_median": 51.59140500967884,
+      "stations": 4,
+      "wilcoxon_p": 0.00048828125
+    },
+    {
+      "diff_ci_high_s": 1.1328125,
+      "diff_ci_low_s": 0.8359375,
+      "diff_median_s": 0.96875,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "cpu_s",
+      "n_pairs": 12,
+      "off_median_s": 2.34375,
+      "on_median_s": 3.296875,
+      "overhead_pct_ci_high": 50.07142857142857,
+      "overhead_pct_ci_low": 36.81917211328977,
+      "overhead_pct_median": 44.51851851851852,
+      "stations": 4,
+      "wilcoxon_p": 0.00048828125
+    },
+    {
+      "diff_ci_high_s": 2.0806728999996267,
+      "diff_ci_low_s": 0.9943078500000411,
+      "diff_median_s": 1.3367571500002668,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "wall_s",
+      "n_pairs": 12,
+      "off_median_s": 4.797731800000292,
+      "on_median_s": 6.304527450000023,
+      "overhead_pct_ci_high": 45.66823319420607,
+      "overhead_pct_ci_low": 19.620954193948812,
+      "overhead_pct_median": 29.74504766150922,
+      "stations": 8,
+      "wilcoxon_p": 0.00146484375
+    },
+    {
+      "diff_ci_high_s": 1.34375,
+      "diff_ci_low_s": 0.9921875,
+      "diff_median_s": 1.1328125,
+      "meets_h4_ci_high_lt_5pct": false,
+      "metric": "cpu_s",
+      "n_pairs": 12,
+      "off_median_s": 3.3515625,
+      "on_median_s": 4.6171875,
+      "overhead_pct_ci_high": 41.05491000227842,
+      "overhead_pct_ci_low": 26.610644257703076,
+      "overhead_pct_median": 32.57575757575757,
+      "stations": 8,
+      "wilcoxon_p": 0.00048828125
+    }
+  ],
+  "data": "REAL GHCN-Daily extract (under 0.4 MB in total)",
+  "experiment": "E4",
+  "h4_decision_rule": "H4 supported only if the 95% CI upper bound of the median wall-clock overhead is < 5% at every data volume",
+  "pairs_per_volume": 12,
+  "volumes_stations": [
+    2,
+    4,
+    8
+  ]
+}

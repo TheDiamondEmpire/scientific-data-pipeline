@@ -1,0 +1,139 @@
+{
+  "complete": true,
+  "dataset": "grid",
+  "rep": 8,
+  "trials": [
+    {
+      "cold_s": 0.10239199999978155,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "scan",
+      "rep": 8,
+      "warm_s": [
+        0.03023589999975229,
+        0.04311280000001716
+      ]
+    },
+    {
+      "cold_s": 1.933991399999286,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "slice",
+      "rep": 8,
+      "warm_s": [
+        1.7778426000004401,
+        1.3124151000001802
+      ]
+    },
+    {
+      "cold_s": 0.08220720000008441,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "slice",
+      "rep": 8,
+      "warm_s": [
+        0.014003799999954936,
+        0.007792800000061106
+      ]
+    },
+    {
+      "cold_s": 1.9187240000001111,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "series",
+      "rep": 8,
+      "warm_s": [
+        2.2531690000005256,
+        2.8680599999997867
+      ]
+    },
+    {
+      "cold_s": 0.0813562000003003,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "series",
+      "rep": 8,
+      "warm_s": [
+        0.027573299999858136,
+        0.03730640000048879
+      ]
+    },
+    {
+      "cold_s": 0.20528530000046885,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "scan",
+      "rep": 8,
+      "warm_s": [
+        0.014480900000307884,
+        0.014441000000260829
+      ]
+    },
+    {
+      "cold_s": 1.7561991000002308,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "series",
+      "rep": 8,
+      "warm_s": [
+        1.3818339999997988,
+        1.3716737000004287
+      ]
+    },
+    {
+      "cold_s": 2.1357474999995247,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "slice",
+      "rep": 8,
+      "warm_s": [
+        1.9085008000001835,
+        1.5698787000001175
+      ]
+    },
+    {
+      "cold_s": 1.6395081999999093,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "scan",
+      "rep": 8,
+      "warm_s": [
+        1.4135748999997304,
+        0.943647900000542
+      ]
+    },
+    {
+      "cold_s": 0.0666771999995035,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "slice",
+      "rep": 8,
+      "warm_s": [
+        0.013401900000644673,
+        0.014902199999596633
+      ]
+    },
+    {
+      "cold_s": 0.15816240000003745,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "series",
+      "rep": 8,
+      "warm_s": [
+        0.030165999999553605,
+        0.041821699999673
+      ]
+    },
+    {
+      "cold_s": 1.5317465999996784,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "scan",
+      "rep": 8,
+      "warm_s": [
+        1.2934894999998505,
+        1.2479018000003634
+      ]
+    }
+  ]
+}

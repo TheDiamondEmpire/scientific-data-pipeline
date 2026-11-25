@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "dataset": "real",
+  "max_relative_difference_between_formats": 8.423006041536368e-15,
+  "rows": [
+    {
+      "bytes": 1404659,
+      "bytes_allocated_4k": 1404928,
+      "dataset": "real",
+      "files": 1,
+      "format": "csv",
+      "sha256": "35909d6b68957b0c823aee7f9899596f446f2ac58c5543a187ec808dcc43d3ff"
+    },
+    {
+      "bytes": 166246,
+      "bytes_allocated_4k": 167936,
+      "dataset": "real",
+      "files": 1,
+      "format": "csv_gz",
+      "sha256": "e8e9b769bd8c66c77ef62a9cc4d5cfc9c79651b251c10f73297203e921151a06"
+    },
+    {
+      "bytes": 102718,
+      "bytes_allocated_4k": 106496,
+      "dataset": "real",
+      "files": 1,
+      "format": "parquet",
+      "sha256": "c8331b7299261004751fb6d7f65fd729dc36eed3c54f6b8a931cfa13d11fc082"
+    },
+    {
+      "bytes": 70812,
+      "bytes_allocated_4k": 167936,
+      "dataset": "real",
+      "files": 31,
+      "format": "zarr",
+      "sha256": null
+    }
+  ]
+}

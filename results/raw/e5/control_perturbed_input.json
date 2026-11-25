@@ -1,0 +1,13 @@
+{
+  "all_deterministic_files": "68be4075beaed8694f473b50149fe6e492c5bb313d5718060ad8f3c56d465b74",
+  "complete": true,
+  "curated_tree": "37a3eb575415861c8f0f76491c8877685bf31b8f096b3155851c5d1744926c0e",
+  "lineage_core": "8ec15c9b0d22eb1817ba5c078bf2e6c8b2a3e5516a65023c6d7256b37eac68cb",
+  "n_deterministic_files": 180,
+  "pythonhashseed": 424242,
+  "quarantine_tree": "e58a0ed4fd38d3cd93e5d9e7e3a23259432e83bc1e2c65bbbc959b9d2804c469",
+  "release_tree": "e0ded78c235ccc3f5a75c191a40bf833d197d4f42aa1d00556c026cf7d4a3a7e",
+  "run": 99,
+  "run_log_volatile": "dbccad15cb7c13a31c9a55edb3265e1cd5db141be88ca67e5df9c46a49a27df3",
+  "threads": 2
+}

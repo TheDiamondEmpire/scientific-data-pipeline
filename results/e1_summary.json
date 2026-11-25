@@ -1,0 +1,362 @@
+{
+  "base_profile": {
+    "by_rule": {
+      "range.gap": 694,
+      "range.physical_bounds": 0,
+      "range.tmax_ge_tmin": 0,
+      "schema.date_in_window": 0,
+      "schema.element_known": 0,
+      "schema.key_unique": 0,
+      "schema.station_known": 0,
+      "schema.unit_label": 0,
+      "schema.value_finite": 0,
+      "statistical.climatology_outlier": 103
+    },
+    "gap_days": 694,
+    "row_flag_rate": 0.0023881289125898446,
+    "row_flags_distinct": 103,
+    "rows": 43130
+  },
+  "cells": [
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": 10.0,
+      "fault": "drift",
+      "injected_per_run_median": 450.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6737474154044122,
+      "precision_new_ci_low": 0.6027243200722193,
+      "precision_new_mean": 0.6372799954904974,
+      "rate": 0.01,
+      "recall_ci_high": 0.1664472222222222,
+      "recall_ci_low": 0.12855277777777777,
+      "recall_mean": 0.1468888888888889,
+      "recall_secondary_mean": 0.2583333333333334
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": 5.0,
+      "fault": "drift",
+      "injected_per_run_median": 1320.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.7096975252497606,
+      "precision_new_ci_low": 0.6272429286425247,
+      "precision_new_mean": 0.6663776396274577,
+      "rate": 0.03,
+      "recall_ci_high": 0.02901609848484847,
+      "recall_ci_low": 0.01962121212121212,
+      "recall_mean": 0.024053030303030305,
+      "recall_secondary_mean": 0.040482954545454544
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": 10.0,
+      "fault": "drift",
+      "injected_per_run_median": 1320.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6448201492428769,
+      "precision_new_ci_low": 0.606801937963728,
+      "precision_new_mean": 0.6255387218730049,
+      "rate": 0.03,
+      "recall_ci_high": 0.14973484848484847,
+      "recall_ci_low": 0.12545454545454546,
+      "recall_mean": 0.13772727272727273,
+      "recall_secondary_mean": 0.23849431818181815
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": 20.0,
+      "fault": "drift",
+      "injected_per_run_median": 1320.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6431743523491495,
+      "precision_new_ci_low": 0.6135024857133352,
+      "precision_new_mean": 0.6276438510706803,
+      "rate": 0.03,
+      "recall_ci_high": 0.3920852272727273,
+      "recall_ci_low": 0.35446875,
+      "recall_mean": 0.37367424242424246,
+      "recall_secondary_mean": 0.5852272727272727
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": 10.0,
+      "fault": "drift",
+      "injected_per_run_median": 2160.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6259058249361864,
+      "precision_new_ci_low": 0.599292771272318,
+      "precision_new_mean": 0.6122375109753342,
+      "rate": 0.05,
+      "recall_ci_high": 0.14155092592592594,
+      "recall_ci_low": 0.1259947916666667,
+      "recall_mean": 0.13388888888888886,
+      "recall_secondary_mean": 0.22786458333333334
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "duplicate",
+      "injected_per_run_median": 431.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 1.0,
+      "precision_new_ci_low": 1.0,
+      "precision_new_mean": 1.0,
+      "rate": 0.01,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "duplicate",
+      "injected_per_run_median": 1294.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 1.0,
+      "precision_new_ci_low": 1.0,
+      "precision_new_mean": 1.0,
+      "rate": 0.03,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "duplicate",
+      "injected_per_run_median": 2156.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 1.0,
+      "precision_new_ci_low": 1.0,
+      "precision_new_mean": 1.0,
+      "rate": 0.05,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "gap",
+      "injected_per_run_median": 433.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.9929014056129373,
+      "precision_new_ci_low": 0.9886304061394138,
+      "precision_new_mean": 0.990870448965859,
+      "rate": 0.01,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "gap",
+      "injected_per_run_median": 1295.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.9940210383675167,
+      "precision_new_ci_low": 0.9919272183161191,
+      "precision_new_mean": 0.9930301170513556,
+      "rate": 0.03,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "gap",
+      "injected_per_run_median": 2158.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.9939702183559407,
+      "precision_new_ci_low": 0.99261916308865,
+      "precision_new_mean": 0.993305607844934,
+      "rate": 0.05,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "range",
+      "injected_per_run_median": 431.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.7540583597968115,
+      "precision_new_ci_low": 0.7453891466984767,
+      "precision_new_mean": 0.7495700770148386,
+      "rate": 0.01,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "range",
+      "injected_per_run_median": 1294.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.7555752408991189,
+      "precision_new_ci_low": 0.7494226338167699,
+      "precision_new_mean": 0.752411032890296,
+      "rate": 0.03,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "range",
+      "injected_per_run_median": 2156.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.7624719193815342,
+      "precision_new_ci_low": 0.75709587096087,
+      "precision_new_mean": 0.7597668850730943,
+      "rate": 0.05,
+      "recall_ci_high": 1.0,
+      "recall_ci_low": 1.0,
+      "recall_mean": 1.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "unit",
+      "injected_per_run_median": 431.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6604522802385026,
+      "precision_new_ci_low": 0.64821797288936,
+      "precision_new_mean": 0.6541972632923108,
+      "rate": 0.01,
+      "recall_ci_high": 0.8539443155452435,
+      "recall_ci_low": 0.8394431554524363,
+      "recall_mean": 0.8468677494199535,
+      "recall_secondary_mean": 0.965839452749413,
+      "recall_tertiary_mean": 0.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "unit",
+      "injected_per_run_median": 1294.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.6690294696037004,
+      "precision_new_ci_low": 0.664253774636682,
+      "precision_new_mean": 0.6665412269820653,
+      "rate": 0.03,
+      "recall_ci_high": 0.8537867078825349,
+      "recall_ci_low": 0.8433143353941267,
+      "recall_mean": 0.8486476043276658,
+      "recall_secondary_mean": 0.9631465852204826,
+      "recall_tertiary_mean": 0.0
+    },
+    {
+      "base_flag_rate": 0.0023881289125898446,
+      "drift_peak_degC": null,
+      "fault": "unit",
+      "injected_per_run_median": 2156.0,
+      "n_runs": 20,
+      "precision_new_ci_high": 0.672791475230369,
+      "precision_new_ci_low": 0.6687261461396493,
+      "precision_new_mean": 0.6707418517433608,
+      "rate": 0.05,
+      "recall_ci_high": 0.8468929730983303,
+      "recall_ci_low": 0.8412331864564009,
+      "recall_mean": 0.8439703153988869,
+      "recall_secondary_mean": 0.9584108982871943,
+      "recall_tertiary_mean": 0.0
+    }
+  ],
+  "experiment": "E1",
+  "h1_checks": {
+    "base_flag_rate_below_1pct": true,
+    "gap": true,
+    "range": true,
+    "unit": false
+  },
+  "h1_decision_rule": "H1 supported only if the 95% CI lower bound of recall is >= 0.95 for unit, range and gap faults AND the base flag rate is < 1%",
+  "pooled_over_rates": {
+    "drift": {
+      "ci_high": 0.14759813762626264,
+      "ci_low": 0.13160955737934904,
+      "n_runs": 60,
+      "recall_mean": 0.1395016835016835
+    },
+    "duplicate": {
+      "ci_high": 1.0,
+      "ci_low": 1.0,
+      "n_runs": 60,
+      "recall_mean": 1.0
+    },
+    "gap": {
+      "ci_high": 1.0,
+      "ci_low": 1.0,
+      "n_runs": 60,
+      "recall_mean": 1.0
+    },
+    "range": {
+      "ci_high": 1.0,
+      "ci_low": 1.0,
+      "n_runs": 60,
+      "recall_mean": 1.0
+    },
+    "unit": {
+      "ci_high": 0.8496802378725169,
+      "ci_low": 0.8433727343043967,
+      "n_runs": 60,
+      "recall_mean": 0.8464952230488354
+    }
+  },
+  "rates": [
+    0.01,
+    0.03,
+    0.05
+  ],
+  "real_flags": {
+    "complete": true,
+    "n_noaa_flagged": 4,
+    "n_noaa_flagged_also_flagged_by_ours": 1,
+    "n_ours_flagged_and_noaa_flagged": 1,
+    "n_ours_flagged_total": 104,
+    "rows": [
+      {
+        "day": 17086,
+        "element": "TMAX",
+        "noaa_qflag": "S",
+        "our_rules_flagging": [],
+        "station": "USC00040693",
+        "value": 32.8
+      },
+      {
+        "day": 17469,
+        "element": "TMAX",
+        "noaa_qflag": "S",
+        "our_rules_flagging": [],
+        "station": "USC00040693",
+        "value": 33.9
+      },
+      {
+        "day": 17816,
+        "element": "TMIN",
+        "noaa_qflag": "S",
+        "our_rules_flagging": [],
+        "station": "USC00051564",
+        "value": -11.7
+      },
+      {
+        "day": 16972,
+        "element": "TMAX",
+        "noaa_qflag": "O",
+        "our_rules_flagging": [
+          "statistical.climatology_outlier"
+        ],
+        "station": "USW00023174",
+        "value": 35.0
+      }
+    ]
+  },
+  "reps_per_cell": 20,
+  "rule_set": "schema+range+statistical (source-QFLAG rule off)",
+  "synthetic_faults": true
+}

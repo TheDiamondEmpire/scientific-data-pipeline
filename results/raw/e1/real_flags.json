@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "n_noaa_flagged": 4,
+  "n_noaa_flagged_also_flagged_by_ours": 1,
+  "n_ours_flagged_and_noaa_flagged": 1,
+  "n_ours_flagged_total": 104,
+  "rows": [
+    {
+      "day": 17086,
+      "element": "TMAX",
+      "noaa_qflag": "S",
+      "our_rules_flagging": [],
+      "station": "USC00040693",
+      "value": 32.8
+    },
+    {
+      "day": 17469,
+      "element": "TMAX",
+      "noaa_qflag": "S",
+      "our_rules_flagging": [],
+      "station": "USC00040693",
+      "value": 33.9
+    },
+    {
+      "day": 17816,
+      "element": "TMIN",
+      "noaa_qflag": "S",
+      "our_rules_flagging": [],
+      "station": "USC00051564",
+      "value": -11.7
+    },
+    {
+      "day": 16972,
+      "element": "TMAX",
+      "noaa_qflag": "O",
+      "our_rules_flagging": [
+        "statistical.climatology_outlier"
+      ],
+      "station": "USW00023174",
+      "value": 35.0
+    }
+  ]
+}

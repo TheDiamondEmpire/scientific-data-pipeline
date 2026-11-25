@@ -1,0 +1,139 @@
+{
+  "complete": true,
+  "dataset": "grid",
+  "rep": 5,
+  "trials": [
+    {
+      "cold_s": 0.758191099999749,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "scan",
+      "rep": 5,
+      "warm_s": [
+        0.6239219999997658,
+        0.9576205000003029
+      ]
+    },
+    {
+      "cold_s": 1.287364400000115,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "series",
+      "rep": 5,
+      "warm_s": [
+        1.1606394999998884,
+        1.0684771999995064
+      ]
+    },
+    {
+      "cold_s": 0.12290439999924274,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "series",
+      "rep": 5,
+      "warm_s": [
+        0.024108100000375998,
+        0.038914600000680366
+      ]
+    },
+    {
+      "cold_s": 0.07120370000029652,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "slice",
+      "rep": 5,
+      "warm_s": [
+        0.022370100000443927,
+        0.009768000000804022
+      ]
+    },
+    {
+      "cold_s": 0.11027990000002319,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "series",
+      "rep": 5,
+      "warm_s": [
+        0.03598969999984547,
+        0.03444870000021183
+      ]
+    },
+    {
+      "cold_s": 3.0205612999998266,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "series",
+      "rep": 5,
+      "warm_s": [
+        1.9086441999997987,
+        1.7101580999997168
+      ]
+    },
+    {
+      "cold_s": 0.07492639999964013,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "slice",
+      "rep": 5,
+      "warm_s": [
+        0.016004099999918253,
+        0.02791700000034325
+      ]
+    },
+    {
+      "cold_s": 0.20712490000005346,
+      "dataset": "grid",
+      "format": "zarr",
+      "query": "scan",
+      "rep": 5,
+      "warm_s": [
+        0.013504999999895517,
+        0.015398400000776746
+      ]
+    },
+    {
+      "cold_s": 0.12899240000024292,
+      "dataset": "grid",
+      "format": "parquet",
+      "query": "scan",
+      "rep": 5,
+      "warm_s": [
+        0.02011450000009063,
+        0.01848969999991823
+      ]
+    },
+    {
+      "cold_s": 1.1020713999996588,
+      "dataset": "grid",
+      "format": "csv",
+      "query": "slice",
+      "rep": 5,
+      "warm_s": [
+        0.9888209000000643,
+        1.1025096000003032
+      ]
+    },
+    {
+      "cold_s": 1.324278800000684,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "slice",
+      "rep": 5,
+      "warm_s": [
+        1.5896474999999555,
+        1.5762078999996447
+      ]
+    },
+    {
+      "cold_s": 1.7343934000000445,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "query": "scan",
+      "rep": 5,
+      "warm_s": [
+        1.486542699999518,
+        1.1999638999996023
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "off": {
+    "cpu_s": 3.1875,
+    "wall_s": 4.218143000000055
+  },
+  "on": {
+    "cpu_s": 4.0,
+    "wall_s": 5.478463600000396
+  },
+  "order": [
+    "on",
+    "off"
+  ],
+  "rep": 2,
+  "stations": 8
+}

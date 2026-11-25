@@ -1,0 +1,980 @@
+{
+  "cold_definition": "first query through a freshly opened handle, includes open; OS file cache not flushed",
+  "cold_reps": 12,
+  "consistency_max_relative_difference": {
+    "grid": 5.321679768515904e-10,
+    "real": 8.423006041536368e-15
+  },
+  "datasets": {
+    "grid": "SYNTHETIC generated grid",
+    "real": "REAL GHCN-Daily clean base"
+  },
+  "experiment": "E3",
+  "h3_decision_rule": "H3 supported for a dataset only if csv/format bytes >= 5 AND the 95% CI lower bound of the csv/format median-latency ratio is >= 10 for every query, cold and warm, for BOTH Parquet and Zarr",
+  "latency": [
+    {
+      "ci_high_s": 1.6903316999996605,
+      "ci_low_s": 0.9268556499996521,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 1.1376885999993647,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 8.74868571242215
+    },
+    {
+      "ci_high_s": 1.256549200000336,
+      "ci_low_s": 0.9649982999999338,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 1.077357999999549,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 9.238600353832398
+    },
+    {
+      "ci_high_s": 1.7769334500003424,
+      "ci_low_s": 1.2248953000002984,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 1.364340550000179,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 1.3716737000004287,
+      "ci_low_s": 1.109371900000042,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 1.1370129000001725,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 2.1775972499999625,
+      "ci_low_s": 1.1785181499994906,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 1.6497162000000571,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 1.5508092999998553,
+      "ci_low_s": 1.1504067000005307,
+      "dataset": "grid",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 1.3411271499999202,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 1.8130525999999918,
+      "ci_low_s": 1.472751100000096,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 1.6330699999998615,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 6.09482753341917
+    },
+    {
+      "ci_high_s": 1.6529728999994404,
+      "ci_low_s": 1.3101535999994667,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 1.5594669500001146,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 6.382488580472493
+    },
+    {
+      "ci_high_s": 2.627927699999873,
+      "ci_low_s": 1.9467686500001946,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 2.0684085000002597,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 2.206021900000451,
+      "ci_low_s": 1.6524575000003097,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 1.9742234499994993,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 2.483398600000328,
+      "ci_low_s": 1.556662150000193,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 1.7880687499996384,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 1.9100990000006277,
+      "ci_low_s": 1.4835033999997904,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 1.5885260999998536,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.20573539999986679,
+      "ci_low_s": 0.1318618999998762,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.15962160000026415,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 62.35547068807435
+    },
+    {
+      "ci_high_s": 0.03078319999985979,
+      "ci_low_s": 0.02418370000032155,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.02635865000047488,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 377.60962719337596
+    },
+    {
+      "ci_high_s": 0.26330800000005183,
+      "ci_low_s": 0.15625254999986282,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.16269569999985833,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.0479907999997522,
+      "ci_low_s": 0.03155030000016268,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.040943500000139466,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.15033545000005688,
+      "ci_low_s": 0.07712575000005018,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.08557820000032734,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.014003799999954936,
+      "ci_low_s": 0.009738299999753508,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.011588749999646097,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.2736117999997987,
+      "ci_low_s": 0.19666624999990745,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.2232403000002705,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 44.58549822764052
+    },
+    {
+      "ci_high_s": 0.01752050000050076,
+      "ci_low_s": 0.014371900000696769,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.015834350000204722,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 628.5878485615964
+    },
+    {
+      "ci_high_s": 0.1151995999994142,
+      "ci_low_s": 0.06582494999975097,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.07757695000009335,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.03103850000024977,
+      "ci_low_s": 0.024009400000068126,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.02655095000000074,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.08009919999994963,
+      "ci_low_s": 0.06682734999958484,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.06941349999988233,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.024073299999145092,
+      "ci_low_s": 0.01679870000043593,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.01836009999988164,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.3919367999997121,
+      "ci_low_s": 0.23257074999992255,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 0.2885507000000871,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 0.3986821033529473
+    },
+    {
+      "ci_high_s": 0.21789500000068074,
+      "ci_low_s": 0.12689429999954882,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 0.16810099999975137,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 0.6843504797721022
+    },
+    {
+      "ci_high_s": 0.427147899999909,
+      "ci_low_s": 0.19855020000022705,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 0.3143794499997057,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.25015870000061113,
+      "ci_low_s": 0.1442160500000682,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 0.17406740000024,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.39137055000037435,
+      "ci_low_s": 0.2237663999999313,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "cold",
+      "median_s": 0.2739795500001492,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.19723870000052557,
+      "ci_low_s": 0.14270209999949657,
+      "dataset": "real",
+      "format": "csv",
+      "kind": "warm",
+      "median_s": 0.1624051499993584,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.4123976500000026,
+      "ci_low_s": 0.2517798500002755,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 0.3087768500004131,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 0.37256679054743286
+    },
+    {
+      "ci_high_s": 0.21710609999990993,
+      "ci_low_s": 0.15015589999984513,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 0.16900940000050468,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 0.680672199295758
+    },
+    {
+      "ci_high_s": 0.3763410000001386,
+      "ci_low_s": 0.23650909999969372,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 0.2790689499997825,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.23477079999975103,
+      "ci_low_s": 0.1679133500001626,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 0.18896340000037526,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.4997389499999372,
+      "ci_low_s": 0.29567069999984597,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "median_s": 0.4189696999997068,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.1889195000003383,
+      "ci_low_s": 0.14504194999972242,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "median_s": 0.16010689999984606,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.21986115000026984,
+      "ci_low_s": 0.09640934999970341,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.16508679999924425,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 0.6968455382291415
+    },
+    {
+      "ci_high_s": 0.00929569999971136,
+      "ci_low_s": 0.006479699999545119,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.007262249999712367,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 15.840820682922834
+    },
+    {
+      "ci_high_s": 0.1589491499998985,
+      "ci_low_s": 0.0908086499998717,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.1176582000007329,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.011362399999597983,
+      "ci_low_s": 0.00750160000006872,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.0093166999999994,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.16023779999977705,
+      "ci_low_s": 0.0824296000000686,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "median_s": 0.11601175000032526,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.010981799999171926,
+      "ci_low_s": 0.006999700000051234,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "median_s": 0.008145750000039698,
+      "n": 24,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.08430829999997513,
+      "ci_low_s": 0.06785214999990785,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.07693044999950871,
+      "n": 12,
+      "query": "scan",
+      "scan_mb_per_s": 1.495376668155908
+    },
+    {
+      "ci_high_s": 0.001953999999386724,
+      "ci_low_s": 0.0015752999997857842,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.0017051499999070074,
+      "n": 24,
+      "query": "scan",
+      "scan_mb_per_s": 67.4662053228595
+    },
+    {
+      "ci_high_s": 0.08209255000019766,
+      "ci_low_s": 0.07078320000027816,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.07509454999944865,
+      "n": 12,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.018441999999595282,
+      "ci_low_s": 0.014749699999811128,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.015983799999958137,
+      "n": 24,
+      "query": "series"
+    },
+    {
+      "ci_high_s": 0.07461770000008983,
+      "ci_low_s": 0.05452485000023444,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "median_s": 0.061954100000093604,
+      "n": 12,
+      "query": "slice"
+    },
+    {
+      "ci_high_s": 0.006879200000184937,
+      "ci_low_s": 0.005160299999261042,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "median_s": 0.005863549999503448,
+      "n": 24,
+      "query": "slice"
+    }
+  ],
+  "latency_ratios_vs_csv": [
+    {
+      "ci_high": 1.3275251516792086,
+      "ci_low": 0.6620585738062147,
+      "csv_over_format_median": 0.9344958988981883,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 1.3597183382045195,
+      "ci_low": 0.7147415480258348,
+      "csv_over_format_median": 0.9946251510226615,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 1.6358532014003484,
+      "ci_low": 0.679182274226277,
+      "csv_over_format_median": 1.1265296622929593,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 1.3170765526648176,
+      "ci_low": 0.6622953657152731,
+      "csv_over_format_median": 0.921169919677008,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 1.1653545331641868,
+      "ci_low": 0.4690500980062824,
+      "csv_over_format_median": 0.6539364302486336,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 1.248757368691317,
+      "ci_low": 0.8146969840891641,
+      "csv_over_format_median": 1.0143544719154174,
+      "dataset": "real",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 3.3504448864525105,
+      "ci_low": 1.2020346552499264,
+      "csv_over_format_median": 1.747872634283347,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 31.97001740901082,
+      "ci_low": 15.812290403358867,
+      "csv_over_format_median": 23.147233984840685,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "scan"
+    },
+    {
+      "ci_high": 4.028642373257755,
+      "ci_low": 1.5751952897924009,
+      "csv_over_format_median": 2.671972289205065,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 28.252319738756754,
+      "ci_low": 14.379722513034876,
+      "csv_over_format_median": 18.68337501478541,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "series"
+    },
+    {
+      "ci_high": 4.033393806954535,
+      "ci_low": 1.571675254936791,
+      "csv_over_format_median": 2.361653453200913,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 25.730345048682942,
+      "ci_low": 14.33110018065955,
+      "csv_over_format_median": 19.937409078177815,
+      "dataset": "real",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "slice"
+    },
+    {
+      "ci_high": 5.301539919210421,
+      "ci_low": 2.9460805256558356,
+      "csv_over_format_median": 3.7507995858847805,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 131.3072990705609,
+      "ci_low": 73.62678936353689,
+      "csv_over_format_median": 98.58428877747939,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "scan"
+    },
+    {
+      "ci_high": 5.933433810294704,
+      "ci_low": 2.553230276743909,
+      "csv_over_format_median": 4.186448284223208,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 15.48172438055578,
+      "ci_low": 8.403261596060585,
+      "csv_over_format_median": 10.890238866896226,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 6.568815633488953,
+      "ci_low": 3.226595557850872,
+      "csv_over_format_median": 4.4222989277503055,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 35.12167811012179,
+      "ci_low": 22.23611396949828,
+      "csv_over_format_median": 27.69741027417036,
+      "dataset": "real",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "slice"
+    },
+    {
+      "ci_high": 1.0703521065431145,
+      "ci_low": 0.5518577640505933,
+      "csv_over_format_median": 0.6966563588820205,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 0.8570540673944578,
+      "ci_low": 0.6026379666993398,
+      "csv_over_format_median": 0.6908501651794993,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 0.8785718702374813,
+      "ci_low": 0.5027324952661426,
+      "csv_over_format_median": 0.659608849025716,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 0.7085178892449691,
+      "ci_low": 0.529609742763535,
+      "csv_over_format_median": 0.5759291837002852,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 1.322000113150523,
+      "ci_low": 0.5600594442381769,
+      "csv_over_format_median": 0.9226245914763572,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 0.9871737380606134,
+      "ci_low": 0.6665129303700942,
+      "csv_over_format_median": 0.8442588069532152,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "kind": "warm",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 11.642117626304822,
+      "ci_low": 5.031654007047671,
+      "csv_over_format_median": 7.12741007481119,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 47.72016688493741,
+      "ci_low": 32.99977032120081,
+      "csv_over_format_median": 40.87303408862515,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "scan"
+    },
+    {
+      "ci_high": 11.043637675564863,
+      "ci_low": 5.053220481308915,
+      "csv_over_format_median": 8.385842711278583,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "series"
+    },
+    {
+      "ci_high": 36.76810077609181,
+      "ci_low": 24.192715647697543,
+      "csv_over_format_median": 27.77029076645376,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "series"
+    },
+    {
+      "ci_high": 26.342471650089053,
+      "ci_low": 9.636549897031427,
+      "csv_over_format_median": 19.27729491849264,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "slice"
+    },
+    {
+      "ci_high": 151.347856565971,
+      "ci_low": 87.92562825562435,
+      "csv_over_format_median": 115.72664437845981,
+      "dataset": "grid",
+      "format": "parquet",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "slice"
+    },
+    {
+      "ci_high": 7.648096044112546,
+      "ci_low": 3.8909908196453498,
+      "csv_over_format_median": 5.096250990515539,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": false,
+      "query": "scan"
+    },
+    {
+      "ci_high": 82.39235030633513,
+      "ci_low": 57.749961157290585,
+      "csv_over_format_median": 68.0392943180882,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "scan"
+    },
+    {
+      "ci_high": 24.769938316810073,
+      "ci_low": 11.84327506351686,
+      "csv_over_format_median": 17.58693207194324,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": true,
+      "query": "series"
+    },
+    {
+      "ci_high": 53.2255733083443,
+      "ci_low": 38.24185699943396,
+      "csv_over_format_median": 42.823812330637544,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "series"
+    },
+    {
+      "ci_high": 31.48004160533429,
+      "ci_low": 16.258035256753306,
+      "csv_over_format_median": 23.76650363406043,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "cold",
+      "meets_10x_ci_low": true,
+      "query": "slice"
+    },
+    {
+      "ci_high": 89.4712818996847,
+      "ci_low": 52.20277142537972,
+      "csv_over_format_median": 73.04574321537278,
+      "dataset": "grid",
+      "format": "zarr",
+      "kind": "warm",
+      "meets_10x_ci_low": true,
+      "query": "slice"
+    }
+  ],
+  "storage": [
+    {
+      "bytes": 72368657,
+      "bytes_allocated_4k": 72372224,
+      "dataset": "grid",
+      "files": 1,
+      "format": "csv",
+      "sha256": "198cc2cce86f0530b8c9c5aefc7a7dd567fef905ce62b878c53222f070493971"
+    },
+    {
+      "bytes": 9891846,
+      "bytes_allocated_4k": 9895936,
+      "dataset": "grid",
+      "files": 1,
+      "format": "csv_gz",
+      "sha256": "29ac518e642412b55361e50fc76b6e73ae418d979c5ff472335c464b23498e7f"
+    },
+    {
+      "bytes": 3124110,
+      "bytes_allocated_4k": 3125248,
+      "dataset": "grid",
+      "files": 1,
+      "format": "parquet",
+      "sha256": "633ef353a516b6d5b82fe8ea86b2dbda04024460c4feb3b09e12b4f59a3d8386"
+    },
+    {
+      "bytes": 3320707,
+      "bytes_allocated_4k": 3469312,
+      "dataset": "grid",
+      "files": 68,
+      "format": "zarr",
+      "sha256": null
+    },
+    {
+      "bytes": 1404659,
+      "bytes_allocated_4k": 1404928,
+      "dataset": "real",
+      "files": 1,
+      "format": "csv",
+      "sha256": "35909d6b68957b0c823aee7f9899596f446f2ac58c5543a187ec808dcc43d3ff"
+    },
+    {
+      "bytes": 166246,
+      "bytes_allocated_4k": 167936,
+      "dataset": "real",
+      "files": 1,
+      "format": "csv_gz",
+      "sha256": "e8e9b769bd8c66c77ef62a9cc4d5cfc9c79651b251c10f73297203e921151a06"
+    },
+    {
+      "bytes": 102718,
+      "bytes_allocated_4k": 106496,
+      "dataset": "real",
+      "files": 1,
+      "format": "parquet",
+      "sha256": "c8331b7299261004751fb6d7f65fd729dc36eed3c54f6b8a931cfa13d11fc082"
+    },
+    {
+      "bytes": 70812,
+      "bytes_allocated_4k": 167936,
+      "dataset": "real",
+      "files": 31,
+      "format": "zarr",
+      "sha256": null
+    }
+  ],
+  "storage_ratios": [
+    {
+      "csv_over_format": 8.449279982676275,
+      "dataset": "real",
+      "format": "csv_gz",
+      "meets_5x": true
+    },
+    {
+      "csv_over_format": 13.674906053466772,
+      "dataset": "real",
+      "format": "parquet",
+      "meets_5x": true
+    },
+    {
+      "csv_over_format": 19.836454273287014,
+      "dataset": "real",
+      "format": "zarr",
+      "meets_5x": true
+    },
+    {
+      "csv_over_format": 7.315991069816493,
+      "dataset": "grid",
+      "format": "csv_gz",
+      "meets_5x": true
+    },
+    {
+      "csv_over_format": 23.164567508826515,
+      "dataset": "grid",
+      "format": "parquet",
+      "meets_5x": true
+    },
+    {
+      "csv_over_format": 21.793147362895912,
+      "dataset": "grid",
+      "format": "zarr",
+      "meets_5x": true
+    }
+  ],
+  "warm_definition": "repeat queries on an already-open handle",
+  "warm_per_rep": 2
+}

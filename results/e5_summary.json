@@ -1,0 +1,80 @@
+{
+  "agreement": [
+    {
+      "agreeing_with_modal": 10,
+      "agreement_rate": 1.0,
+      "artefact": "release_tree",
+      "ci_high": 1.0,
+      "ci_low": 0.7224672001371107,
+      "control_perturbed_input_differs": true,
+      "distinct_hashes": 1,
+      "expected": "identical",
+      "n_runs": 10
+    },
+    {
+      "agreeing_with_modal": 10,
+      "agreement_rate": 1.0,
+      "artefact": "curated_tree",
+      "ci_high": 1.0,
+      "ci_low": 0.7224672001371107,
+      "control_perturbed_input_differs": true,
+      "distinct_hashes": 1,
+      "expected": "identical",
+      "n_runs": 10
+    },
+    {
+      "agreeing_with_modal": 10,
+      "agreement_rate": 1.0,
+      "artefact": "quarantine_tree",
+      "ci_high": 1.0,
+      "ci_low": 0.7224672001371107,
+      "control_perturbed_input_differs": false,
+      "distinct_hashes": 1,
+      "expected": "identical",
+      "n_runs": 10
+    },
+    {
+      "agreeing_with_modal": 10,
+      "agreement_rate": 1.0,
+      "artefact": "lineage_core",
+      "ci_high": 1.0,
+      "ci_low": 0.7224672001371107,
+      "control_perturbed_input_differs": true,
+      "distinct_hashes": 1,
+      "expected": "identical",
+      "n_runs": 10
+    },
+    {
+      "agreeing_with_modal": 10,
+      "agreement_rate": 1.0,
+      "artefact": "all_deterministic_files",
+      "ci_high": 1.0,
+      "ci_low": 0.7224672001371107,
+      "control_perturbed_input_differs": true,
+      "distinct_hashes": 1,
+      "expected": "identical",
+      "n_runs": 10
+    },
+    {
+      "agreeing_with_modal": 1,
+      "agreement_rate": 0.1,
+      "artefact": "run_log_volatile",
+      "ci_high": 0.4041500267952385,
+      "ci_low": 0.017876213095072896,
+      "control_perturbed_input_differs": true,
+      "distinct_hashes": 10,
+      "expected": "differ (volatile control)",
+      "n_runs": 10
+    }
+  ],
+  "all_deterministic_artefacts_identical": true,
+  "deterministic_files_per_run": 180,
+  "experiment": "E5",
+  "n_clean_runs": 10,
+  "varied_between_runs": [
+    "PYTHONHASHSEED",
+    "thread cap (1 or 2)",
+    "working directory path",
+    "current directory"
+  ]
+}

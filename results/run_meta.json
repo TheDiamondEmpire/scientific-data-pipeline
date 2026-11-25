@@ -1,0 +1,165 @@
+{
+  "code_content_hash": "63b9448c0c4c993d25d1b4785b1eed0cade8203e65d4d3840224b7f4f6c4aa9f",
+  "command": "uv run python -m experiments.all --fresh",
+  "earlier_invocation_left_incomplete_marker": false,
+  "experiments_code_hash": "2f020753cd96f191573ab1c32947156ff6cb5bce06870a3296f8214572e9f882",
+  "finished_utc": "2026-10-23T16:55:57.406451+00:00",
+  "hardware": {
+    "core_budget": 2,
+    "cpu_max_mhz": 2800,
+    "logical_cores": 8,
+    "note": "Shared machine: other builds and applications ran concurrently, so wall-clock timings are noisy; non-timing metrics are preferred.",
+    "packages": {
+      "duckdb": "2.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "psutil": "7.2.2",
+      "pyarrow": "26.0.0",
+      "scipy": "1.18.1",
+      "xarray": "2026.9.0",
+      "zarr": "3.4.1"
+    },
+    "physical_cores": 4,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+    "python": "3.12.13",
+    "ram_total_gb": 30.0
+  },
+  "inbox_tree_sha256": "439380ad618a415d3c21e2364b8f2e879666320da96d1ef05763d012db069d6a",
+  "load_after": {
+    "available_ram_gb": 5.08,
+    "cpu_percent_mean": 97.1,
+    "cpu_percent_per_core": [
+      99.0,
+      97.2,
+      95.9,
+      100.0,
+      94.4,
+      97.4,
+      95.9,
+      96.9
+    ]
+  },
+  "load_before": {
+    "available_ram_gb": 2.54,
+    "cpu_percent_mean": 100.0,
+    "cpu_percent_per_core": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  "per_experiment": {
+    "e1": {
+      "load_at_start": {
+        "available_ram_gb": 2.56,
+        "cpu_percent_mean": 100.0,
+        "cpu_percent_per_core": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "seconds": 1312.3,
+      "units_computed": 19,
+      "units_resumed": 0
+    },
+    "e2": {
+      "load_at_start": {
+        "available_ram_gb": 5.46,
+        "cpu_percent_mean": 100.0,
+        "cpu_percent_per_core": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "seconds": 404.4,
+      "units_computed": 5,
+      "units_resumed": 0
+    },
+    "e3": {
+      "load_at_start": {
+        "available_ram_gb": 5.31,
+        "cpu_percent_mean": 99.2,
+        "cpu_percent_per_core": [
+          99.3,
+          100.0,
+          100.0,
+          100.0,
+          99.2,
+          96.1,
+          99.2,
+          100.0
+        ]
+      },
+      "seconds": 565.6,
+      "units_computed": 26,
+      "units_resumed": 0
+    },
+    "e4": {
+      "load_at_start": {
+        "available_ram_gb": 5.61,
+        "cpu_percent_mean": 96.5,
+        "cpu_percent_per_core": [
+          99.3,
+          98.6,
+          97.7,
+          99.3,
+          93.8,
+          93.9,
+          93.9,
+          95.4
+        ]
+      },
+      "seconds": 456.6,
+      "units_computed": 36,
+      "units_resumed": 0
+    },
+    "e5": {
+      "load_at_start": {
+        "available_ram_gb": 5.39,
+        "cpu_percent_mean": 79.5,
+        "cpu_percent_per_core": [
+          80.0,
+          83.0,
+          86.2,
+          79.5,
+          83.8,
+          74.6,
+          78.8,
+          69.8
+        ]
+      },
+      "seconds": 323.2,
+      "units_computed": 11,
+      "units_resumed": 0
+    }
+  },
+  "pinned_logical_cores": [
+    0,
+    1
+  ],
+  "single_invocation": true,
+  "started_utc": "2026-10-23T16:04:51.309195+00:00",
+  "status": "complete",
+  "total_seconds": 3062.2,
+  "units_computed": 97,
+  "units_resumed": 0,
+  "uv_lock_sha256": "35142f4712015c9c691e8f5e35d3f18652cb4ca5608db16c64e404e97719f991"
+}

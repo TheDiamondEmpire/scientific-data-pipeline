@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Scientific Data Pipeline"
+type: software
+version: 0.1.0
+abstract: "Local, tested pipeline from raw open scientific data to validated, versioned, citable datasets: content-addressed raw zone, validation with quarantine, lineage, Parquet and Zarr outputs and FAIR-style releases. Evaluated locally on a small NOAA GHCN-Daily extract."
+authors:
+  - name: "The Diamond Empire"
+    website: "https://thedempire.shop/"
+repository-code: "https://github.com/TheDiamondEmpire/scientific-data-pipeline"
+keywords:
+  - "data-pipeline"
+  - "data-engineering"
+  - "parquet"
+  - "zarr"
+  - "duckdb"
+  - "reproducible-research"
+  - "fair-data"
+  - "python"

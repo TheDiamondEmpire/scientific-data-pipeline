@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "rulesets": {
+    "none": {
+      "by_rule": {
+        "range.gap": 0
+      },
+      "gap_days": 0,
+      "row_flag_rate": 0.0,
+      "row_flags_distinct": 0,
+      "rows": 43130
+    },
+    "schema": {
+      "by_rule": {
+        "range.gap": 0,
+        "schema.date_in_window": 0,
+        "schema.element_known": 0,
+        "schema.key_unique": 0,
+        "schema.station_known": 0,
+        "schema.unit_label": 0,
+        "schema.value_finite": 0
+      },
+      "gap_days": 0,
+      "row_flag_rate": 0.0,
+      "row_flags_distinct": 0,
+      "rows": 43130
+    },
+    "schema+range": {
+      "by_rule": {
+        "range.gap": 694,
+        "range.physical_bounds": 0,
+        "range.tmax_ge_tmin": 0,
+        "schema.date_in_window": 0,
+        "schema.element_known": 0,
+        "schema.key_unique": 0,
+        "schema.station_known": 0,
+        "schema.unit_label": 0,
+        "schema.value_finite": 0
+      },
+      "gap_days": 694,
+      "row_flag_rate": 0.0,
+      "row_flags_distinct": 0,
+      "rows": 43130
+    },
+    "schema+range+statistical": {
+      "by_rule": {
+        "range.gap": 694,
+        "range.physical_bounds": 0,
+        "range.tmax_ge_tmin": 0,
+        "schema.date_in_window": 0,
+        "schema.element_known": 0,
+        "schema.key_unique": 0,
+        "schema.station_known": 0,
+        "schema.unit_label": 0,
+        "schema.value_finite": 0,
+        "statistical.climatology_outlier": 103
+      },
+      "gap_days": 694,
+      "row_flag_rate": 0.0023881289125898446,
+      "row_flags_distinct": 103,
+      "rows": 43130
+    }
+  }
+}
